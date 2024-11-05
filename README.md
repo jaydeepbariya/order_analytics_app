@@ -19,7 +19,7 @@ A scalable, microservices-based platform for managing orders, processing payment
 - **Backend**: Java, Spring Boot, Spring Security, Hibernate
 - **Microservices**: Spring Cloud, REST APIs
 - **Event Streaming**: Apache Kafka
-- **Database**: PostgreSQL
+- **Database**: MySQL
 - **Cache**: Redis
 - **Containerization**: Docker
 - **CI/CD**: Jenkins
@@ -27,7 +27,7 @@ A scalable, microservices-based platform for managing orders, processing payment
 
 ## 📁 Architecture Overview
 
-ROAP uses a microservices architecture, allowing independent scaling and modular functionality. Services communicate via Kafka for real-time updates, Redis for caching, and PostgreSQL for persistent data.
+ROAP uses a microservices architecture, allowing independent scaling and modular functionality. Services communicate via Kafka for real-time updates, Redis for caching, and MySQL for persistent data.
 
 ### Microservices
 
@@ -39,6 +39,3 @@ ROAP uses a microservices architecture, allowing independent scaling and modular
 6. **Notification Service**: Sends notifications for significant events.
 
 ---
-
-## 🧰 Project Structure
-
